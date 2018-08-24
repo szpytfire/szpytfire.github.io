@@ -3,9 +3,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="description" content="Versatile Software Engineer. Currently enjoys working in Python, React and Typescript."/>
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <style>
   body {
-  	font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive;
     color: #82684A;
     overflow: hidden;
   }
@@ -38,13 +39,27 @@
     left: 0;
     z-index: 2;
   }
+  .links {
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+  }
+  .links a {
+    text-decoration: none;
+    color: #82684A;
+    display: block;
+  }
+  .links a:hover {
+    color: #604a2f;
+  }
   #name {
     width: 590px;
-  	font-size: 80px;
-  	bottom: 0;
-  	right: 0;
-  	z-index: 4;
-  	position: absolute;
+    font-size: 80px;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    position: absolute;
   }
 </style>
 <script>
@@ -63,7 +78,12 @@
 <body>
   <div class="blue"></div>
   <div class="orange"></div>
-  <div class="yellow"></div>
+  <div class="yellow">
+    <div class="links">
+      <a href="https://medium.com/@szpytfire">Blog</a>
+      <a href="https://www.linkedin.com/in/tom-szpytman-6b049256">Career</a>
+    </div>
+  </div>
   <div id="name"></div>
 </body>
 </html>
