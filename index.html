@@ -1,13 +1,23 @@
-<html>
-    <head>
-        <title>Tom Szpytman</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="description" content="React and Typescript Software Contractor."/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" />
-        <style>
+<html lang="en">
+<head>
+    <title>Tom Szpytman</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="React and Typescript Software Contractor."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"/>
+    <style>
         body {
             font-family: 'Poiret One', cursive;
+        }
+
+        a {
+            text-decoration: inherit;
+            color: #575656;
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: #A0A0A0;
         }
 
         .page-wrapper {
@@ -31,12 +41,17 @@
         .title {
             color: #5A5A5A;
             font-size: 50px;
-            margin-top: 15px;
         }
 
         .subtitle {
             color: #575656;
             font-size: 25px;
+            margin-top: 20px;
+        }
+
+        .subtitle-link {
+            font-size: 25px;
+            margin-top: 15px;
         }
 
         .footer-wrapper {
@@ -44,26 +59,23 @@
             margin-bottom: 20px;
             justify-content: center;
             display: flex;
+            font-size: 20px;
         }
 
-        .footer-wrapper a {
+        .footer-wrapper a:first-child {
             margin-right: 15px;
-            text-decoration: inherit;
-            color: #575656;
         }
 
-        .footer-wrapper a:hover {
-            cursor: pointer;
-            color: #A0A0A0;
-        }
 
         @media only screen and (max-width: 600px) {
             .content-wrapper {
                 margin-top: 30%;
             }
+
             .title {
                 font-size: 40px;
             }
+
             .subtitle {
                 font-size: 20px;
             }
@@ -86,19 +98,34 @@
                 margin-top: 10%;
             }
         }
-        </style>
-    </head>
+    </style>
+</head>
 <body>
-    <div class="page-wrapper">
-        <div class="content-wrapper">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="180"><defs/><g><path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers" d=" M 168 77 A 68 68 0 1 1 167.99996600000281 76.93200001133329" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray=""/><path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers" d=" M 180 78 A 70 70 0 1 1 179.99996500000293 77.93000001166662" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray=""/><path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers" d=" M 180 80 A 80 80 0 1 1 179.99996000000334 79.92000001333328" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray=""/></g></svg>
-            <div class="title">Tom Szpytman</div>
-            <div class="subtitle">Software Contractor</div>
-        </div>
-        <div class="footer-wrapper">
-            <a href="https://www.linkedin.com/in/tom-szpytman-6b049256">Linkedin</span>
-            <a href="https://medium.com/@szpytfire">Medium</span>
-        </div>
+<div class="page-wrapper">
+    <div class="content-wrapper">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="210"
+             height="180">
+            <defs/>
+            <g>
+                <path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers"
+                      d=" M 168 77 A 68 68 0 1 1 167.99996600000281 76.93200001133329" stroke-miterlimit="10"
+                      stroke-width="0.8" stroke-dasharray=""/>
+                <path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers"
+                      d=" M 180 78 A 70 70 0 1 1 179.99996500000293 77.93000001166662" stroke-miterlimit="10"
+                      stroke-width="0.8" stroke-dasharray=""/>
+                <path fill="none" stroke="#A0A0A0" paint-order="fill stroke markers"
+                      d=" M 180 80 A 80 80 0 1 1 179.99996000000334 79.92000001333328" stroke-miterlimit="10"
+                      stroke-width="0.8" stroke-dasharray=""/>
+            </g>
+        </svg>
+        <div class="title">Tom Szpytman</div>
+        <div class="subtitle">Software Contractor</div>
+        <a class="subtitle-link" href="https://www.voliyo.dev">voliyo.dev</a>
     </div>
+    <div class="footer-wrapper">
+        <a href="https://www.linkedin.com/in/tom-szpytman-6b049256">Linkedin</a>
+        <a href="https://medium.com/@szpytfire">Medium</a>
+    </div>
+</div>
 </body>
 </html>
